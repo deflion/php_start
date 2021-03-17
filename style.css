@@ -1,0 +1,31 @@
+img{
+    max-width: 300px;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+
+.navbar-nav{
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+
+.nav-item{
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.nav-link{
+    color: whitesmoke;
+}
+
+main{
+    padding: 100px 0;   
+}
+
+.about{
+    align-items: center;
+}
