@@ -1,12 +1,12 @@
 <?
 
-$hello = "Приветствие";
+    $hello = "Приветствие от автора";
 
-$name = "Evgeniy";
-$surname = "Denisov";
-$city = "Zvenigorog";
-$age = "25";
+    $name = "Evgeniy";
+    $surname = "Denisov";
+    $city = "Zvenigorog";
+    $age = "25";
 
-include 'main.php';
+    include 'main.php';
 
 ?>

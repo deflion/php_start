@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 img{
     max-width: 300px;
 }
@@ -23,9 +27,39 @@ header{
 }
 
 main{
-    padding: 100px 0;   
+    padding: 50px 0;   
 }
 
 .about{
     align-items: center;
 }
+
+.article{
+    padding: 50px 0;
+}
+
+    article{
+        margin-bottom: 20px;
+    }
+
+    article::after{
+        content: "";
+        border-bottom: rgb(35 39 43) solid 2px;
+        display: block;
+
+    }
+
+footer{
+    background-color: rgb(35 39 43);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+
+    footer span{
+        color: rgb(199, 199, 199);
+        font-weight: bold;
+    }
